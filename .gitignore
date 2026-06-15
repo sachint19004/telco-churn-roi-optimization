@@ -1,0 +1,28 @@
+# === Python Cache ===
+# Prevents messy, hidden compiled files from uploading
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Virtual Environments ===
+# Prevents uploading thousands of library files (requirements.txt handles this)
+venv/
+env/
+.env
+
+# === Jupyter Notebooks ===
+# Ignores hidden auto-save files that Jupyter creates
+.ipynb_checkpoints/
+
+# === OS & Editor Files ===
+# Hides system files created by Mac/Windows and code editors (VSCode, PyCharm)
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# === Large Data & Models ===
+# (Optional) Prevents accidentally uploading massive 50GB files if you expand this project
+*.parquet
+*.h5
+*.pkl
